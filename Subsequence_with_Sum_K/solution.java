@@ -1,3 +1,7 @@
+class Solution {
+    public boolean checkSubsequenceSum(int[] arr, int k) {
+        // code here
+        return backtrack(arr, 0,k,0);
     }
     
     
@@ -15,6 +19,3 @@
             }
             sum=sum-arr[i];
         }
-        return false;
-    }
-}
