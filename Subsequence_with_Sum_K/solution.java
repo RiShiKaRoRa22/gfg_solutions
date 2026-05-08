@@ -19,3 +19,6 @@ class Solution {
             }
             sum=sum-arr[i];
         }
+        return false;
+    }
+}
